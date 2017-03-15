@@ -1,16 +1,10 @@
 @font-face {
 font-family: 'Fjalla One'
-	/*font-family: 'fira';*/
-	/*src:  url('FiraCode-Retina.ttf') format('ttf'),
-	local('FiraCode-Retina');*/
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
 	font-family: 'Fjalla One'
-	/*font-family: 'fira';*/
-	/*src:  url('FiraCode-Light.ttf') format('ttf'),
-	local('FiraCode-Light');*/
 	font-style: normal;
 	font-weight: lighter;
 
@@ -27,21 +21,8 @@ html, body{
 }
 
 * {
-	/*font-family: 'fira';*/
 	font-family: 'Fjalla One';
 	font-weight: lighter;
-}
-
-#title-bar {
-	position: absolute;
-	padding: 0 20px 0 20px;
-	bottom: 30%;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1200px;
-	height: auto;
 }
 
 #title {
@@ -52,6 +33,7 @@ html, body{
 	margin: 4px;
 	padding: 8px;
 	border: 5px solid #282a36;
+	display: flex;
 }
 
 #image-card {
