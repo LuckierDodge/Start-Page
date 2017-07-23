@@ -1,3 +1,16 @@
+@font-face {
+font-family: 'Fjalla One'
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Fjalla One'
+	font-style: normal;
+	font-weight: lighter;
+
+}
+
+
 html, body{
 	margin: 0;
 	padding: 0;
@@ -8,7 +21,8 @@ html, body{
 }
 
 * {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Fjalla One';
+	font-weight: lighter;
 }
 
 #title {
@@ -16,36 +30,43 @@ html, body{
 	-moz-box-shadow: 1px 1px 20px 0px #000;
 	box-shadow: 1px 1px 20px 0px #000;
 	background-color: #282a36;
-	/*margin-top: 5%;*/
 	margin: 4px;
 	padding: 8px;
 	border: 5px solid #282a36;
 	display: flex;
-	/*width: 10%;*/
-	/*margin-right: auto;*/
-	/*margin-left: auto;*/
-	justify-content: center;
 }
 
 #image-card {
 	width: 200px;
-	display: block;
+	position: absolute;
+	top: 125px;
+	left: 50%;
+	transform: translateX(-50%);
 	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #container {
 	position: absolute;
 	padding: 0 20px 0 20px;
-	top: 30%;
+	top: 40%;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1400px;
+	width: 1200px;
 	height: auto;
 }
+
+#header {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	background-color: #282a36;
+	margin: 4px;
+	padding: 8px;
+	border: 5px solid #282a36;
+}
+
 
 #links {
 	display: -moz-box;
@@ -126,4 +147,20 @@ h3 {
 .red {
 	padding: 0;
 	color: #ff5c57;
+}
+
+form {
+	display: inline;
+}
+
+input 	{
+	display: inline;
+	background: none;
+	display: inline;
+	border: none;
+	color: #FFF;
+	width: 90%;
+	font-size: 21px;
+	padding: .25%;
+	margin-left: .5%;
 }
